@@ -2,7 +2,7 @@
   "name": "bs-mustache",
   "version": "0.2.0",
   "description": "BuckleScript bindings for Mustache.js",
-  "main": "index.js",
+  "main": "src/Mustache.bs.js",
   "homepage": "https://github.com/enspirit/bs-mustache#readme",
   "repository": {
     "type": "git",
@@ -16,14 +16,11 @@
     "mustache"
   ],
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w",
     "test": "jest"
-  },
-  "peerDependencies": {
-    "mustache": "^3.0.1"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.9",
@@ -33,12 +30,7 @@
   "jest": {
     "testURL": "http://localhost/"
   },
-  "files": [
-    "src/Mustache.re",
-    "bsconfig.json"
-  ],
   "dependencies": {
-    "bucklescript": "0.0.2",
     "mustache": "^3.0.1"
   }
 }
