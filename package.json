@@ -1,5 +1,5 @@
 {
-  "name": "bs-mustache",
+  "name": "@enspirit/bs-mustache",
   "version": "0.2.1",
   "description": "BuckleScript bindings for Mustache.js",
   "main": "src/Mustache.bs.js",
