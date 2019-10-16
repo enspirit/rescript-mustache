@@ -20,7 +20,7 @@ let () =
             expect(
               Mustache.render("{{title}} spends {{calc}} and then {{> loaded}}",
                   { "title": "Joe", "calc": () => 2 + 4, "then": "lol" },
-                  ~partials={ "loaded": "{{then}}" },
+                  ~partials=Js.Dict.fromList([("loaded", "{{then}}")]),
                   ()
                 )
               )
