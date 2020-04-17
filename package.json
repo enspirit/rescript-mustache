@@ -21,7 +21,7 @@
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w",
     "test": "jest",
-    "testWatchAll": "jest --watchAll"
+    "watch:test": "jest --watchAll"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.9",
