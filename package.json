@@ -1,12 +1,12 @@
 {
-  "name": "@enspirit/bs-mustache",
+  "name": "@enspirit/rescript-mustache",
   "version": "0.4.1",
   "description": "BuckleScript bindings for Mustache.js",
   "main": "src/Mustache.bs.js",
-  "homepage": "https://github.com/enspirit/bs-mustache#readme",
+  "homepage": "https://github.com/enspirit/rescript-mustache#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enspirit/bs-mustache.git"
+    "url": "git+https://github.com/enspirit/rescript-mustache.git"
   },
   "author": "ygu",
   "license": "ISC",
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.9",
-    "bs-platform": "^5.0.6",
+    "bs-platform": "^8.2.0",
     "jest": "^24.8.0"
   },
   "jest": {

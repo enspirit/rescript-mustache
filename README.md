@@ -1,6 +1,6 @@
-# bs-mustache
+# rescript-mustache
 
-[BuckleScript](https://bucklescript.github.io) bindings for [mustache](https://github.com/janl/mustache.js).
+[ReScript](https://rescript-lang.org) bindings for [mustache](https://github.com/janl/mustache.js).
 
 # Usage
 
