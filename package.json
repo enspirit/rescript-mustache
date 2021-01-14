@@ -11,8 +11,7 @@
   "author": "ygu",
   "license": "ISC",
   "keywords": [
-    "reason",
-    "bucklescript",
+    "rescript",
     "mustache"
   ],
   "scripts": {
